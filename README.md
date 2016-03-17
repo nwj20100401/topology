@@ -15,8 +15,16 @@ Topology was developed in 2013, to be clear, the Topology in GitHub is just a **
 
 Main Screenshot  
 ![screenshot 1](./images/preview/preview1.png "Main Screenshot")  
+
 Edit Screenshot  
-![screenshot 2](./images/preview/preview2.png "Edit Screenshot")
+![screenshot 2](./images/preview/preview2.png "Edit Screenshot")  
+
+Mobile (iOS Safari)  
+![mobile](./images/preview/mobile.png "Mobile (iOS Safari)")
+
+## Online Demo
+Resources will be loading after the page open, please be patient. Recommended use Google Chrome to browsing.  
+[Online Demo](https://zhaodabao.github.io/topology/main.html?type=1)
 
 ## Getting Started
 1. Because there are a lot of files in Topology, suggest to download ZIP(4.9M).
@@ -33,13 +41,15 @@ Edit Screenshot
 - Support shortcuts
 - Support eagle eye
 
-## Compatibility
+## Browser Support
+
+Topology runs best on WebKit based browsers.
 
 BROWSER | DETAIL
 ------------ | -------------
-Internet Explorer | 6.0 - 8.0 need to install Adobe SvgViewer; 9.0 is not support filters; 10.0+ partial support transforms, filters, etc; All versions of Internet Explorer is not support SMIL animation. Not recommended.
 Google Chrome | 45+, Recommended.
 Firefox | 43+
+Internet Explorer | 6.0 - 8.0 need to install Adobe SvgViewer; 9.0 is not support filters; 10.0+ partial support transforms, filters, etc; All versions of Internet Explorer is not support SMIL animation. Not recommended.
 Opera | 34+
 Safari | 9+
 iOS Safari | 8.4+
@@ -48,6 +58,7 @@ Android Chrome | 47+
 ## TODO List
 
 - Undo and redo
+- Support mobile operation and Responsive UI
 - Increase the editional functions of polyline
 - Add more graphics rendering, like highlight
 - Add Bootstrap style
